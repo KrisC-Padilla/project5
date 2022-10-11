@@ -1,0 +1,121 @@
+.containershop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+    padding: 10px 15px;
+    width: auto;
+    height: auto;
+   
+    /* background-color: black;
+    background-color: rgba(223, 219, 219, 0.756);
+    padding: 25px; */
+}
+.containershop > .showlistselect {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+      
+    background-color: black;
+    background-color: rgba(223, 219, 219, 0.756);
+    padding: 25px;
+}
+
+.containershop > .deetsSelectWrapper{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    background-color: rgba(223, 219, 219, 0.756);
+
+}
+.containershop > .deetsSelectWrapper > .deetsandconcern{
+    
+
+    font-weight: 600;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    padding: 10px;
+    margin: 5px;
+    background-color: black;
+    background-color: rgba(223, 219, 219, 0.756);
+  }
+   
+.containershop > .deetsSelectWrapper > .divselectarea {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 10px;
+    margin: 5px;
+    background-color: black;
+    background-color: rgba(223, 219, 219, 0.756);
+}
+
+.containershop > .showlistselect > .listAddwrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: center;
+    /* border: 2px solid black; */
+    padding: 10px 15px;
+   
+  }
+  
+  .containershop > .showlistselect > .listAddwrapper > .shoplist{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 10px 15px;
+    width: 300px;
+    height: auto;
+    margin: 5px;
+  }
+
+  .containershop > .showlistselect > .listAddwrapper > .shopdeets{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 10px 15px;
+    width: 800px;
+    height: auto;
+    margin: 5px;
+  }
+
+.backbttn{
+    display:inline-block;
+    background-color: crimson;
+    color: white;
+    font-size: small;
+    border-radius: 6px;   
+    width:100px;
+    height: 40px;
+    margin: 5px;
+}  
+.nearbttbn{
+    display:inline-block;
+    background-color: crimson;
+    color: white;
+    font-size: small;
+    border-radius: 6px;   
+    width:300px;
+    height: 40px;
+    margin: 5px;
+} 
+.otherbttn{
+    align-items: center;
+    justify-content: center;
+    background-color: crimson;
+    color: white;
+    font-size: small;
+    border-radius: 6px;   
+    width: 130px;
+    height: 40px;
+    margin: 5px;
+} 
+.shop {
+  color: crimson;
+  font-weight: 400;
+}
